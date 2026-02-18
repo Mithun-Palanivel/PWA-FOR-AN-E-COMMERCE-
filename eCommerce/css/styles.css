@@ -4,7 +4,6 @@ body {
   background: #eaeded;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,7 +40,6 @@ body {
   cursor: pointer;
 }
 
-/* Categories */
 .categories {
   background: #232f3e;
   color: white;
@@ -51,7 +49,6 @@ body {
   font-size: 14px;
 }
 
-/* Hero */
 .hero {
   background: linear-gradient(to right, #ff9900, #f3a847);
   text-align: center;
@@ -59,7 +56,6 @@ body {
   color: white;
 }
 
-/* Products */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -94,7 +90,6 @@ body {
   margin-top: 10px;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .search-bar {
     width: 60%;
@@ -109,3 +104,4 @@ body {
     gap: 10px;
   }
 }
+
